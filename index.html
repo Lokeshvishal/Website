@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Exciting Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            background: black;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 20px auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .blog-post, .photography {
+            flex:0 0 40%; /* Flexbox layout for equal width and space distribution */
+            margin-bottom: 20px;
+        }
+        .blog-post img, .photography img {
+            width: 40%; /* Images will fill the container width */
+            border-radius: 5px;
+            margin-bottom: 10px; /* Spacing between images */
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #333;
+            color: #fff;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Exciting Website!</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Blog</a>
+        <a href="#">About us</a>
+        <a href="#">Our history</a>
+        <a href="#">Contacts</a>
+        <a href="#">Log In</a>
+    </nav>
+    <div class="container">
+        <div class="blog-post">
+            <h2>An Exciting Blog Post</h2>
+            <img src="./wonderla.webp" alt="Wonderla Amusement Park">
+            <p>WONDERLA - The Largest Chain of Amusement Parks in India! Step into a world of magic, where joy springs to life! We are so much more than an amusement park - a world where everyone comes together and enjoys the little moments.</p>
+            <p>A life of fun is what everyone deserves, so come on down to the Wonderla closest to you!</p>
+        </div>
+        <div class="photography">
+            <h2>Photography</h2>
+            <img src="./wonderla 2.avif" alt="Wonderla Theme Park Image 1" style="height: 105px;">
+            <img src="./wonderla 3.jfif" alt="Wonderla Theme Park Image 2">
+            <img src="./wonderla 4.jfif" alt="Wonderla Theme Park Image 3" style="height: 105px;">
+            <img src="./wonderla 5.jpg" alt="Wonderla Theme Park Image 4">
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 My Exciting Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>
